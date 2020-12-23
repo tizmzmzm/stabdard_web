@@ -1,0 +1,51 @@
+body {
+  background: #c8e6c8;
+}
+
+#wrap {
+  width: 1000px;
+  height: 900px;
+  margin: 0 auto;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#header {
+  width: 1000px;
+  height: 100px;
+  background: #2e7d32;
+  line-height: 100px;
+}
+
+#nav {
+  width: 1000px;
+  height: 100px;
+  background: #388e3c;
+  line-height: 100px;
+}
+
+#side {
+  float: left;
+  width: 300px;
+  height: 600px;
+  background: #43a047;
+  line-height: 600px;
+}
+
+#contents {
+  float: left;
+  width: 700px;
+  height: 600px;
+  background: #4caf50;
+  line-height: 600px;
+}
+
+#footer {
+  float: left; /*side,contents의 height가 0으로 인식이 되어 겹쳐지는 형상을 막기 위해 footer에도 float을 준다*/
+  width: 1000px;
+  height: 100px;
+  background: #66bb6a;
+  line-height: 100px;
+}
