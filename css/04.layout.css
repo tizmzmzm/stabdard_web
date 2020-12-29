@@ -52,8 +52,8 @@ body {
 
 #footer {
   line-height: 100px;
-  float: left;
   width: 1200px;
   height: 100px;
   background-color: #ffb74d;
+  clear: both;
 }
